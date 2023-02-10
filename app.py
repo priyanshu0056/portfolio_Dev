@@ -35,4 +35,4 @@ def write_data(user_data):
         db_writer.writerow([name, email, message, time1])
         
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(debug = 'True')

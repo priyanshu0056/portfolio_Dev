@@ -22,6 +22,6 @@
 
 10. Use hosting platforms such as Pythonanywhere, AWS, Heroku, or GCP to host the Flask web-app.
 
-11. Check out my website at https://priyanshuportfolio.onrender.com . Refresh once after opening for better intercation.
+11. Check out my website at https://priyanshusharma.onrender.com . Refresh once after opening for better intercation.
 
 # Bye Bye !!!

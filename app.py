@@ -20,10 +20,10 @@ def submit_form():
             return render_template('submit_form.html', message = message)
         except:
             message = "You did't send the message correctly"
-            return render_template('submit_form.html', message = message)
+            return render_template('submit_form.html', message = message) 
     else:
         message = "FORM NOT SUBMITTED"
-        return render_template('submit_form.html', message = message)
+        return render_template('submit_form.html', message = message) 
 
 def write_data(user_data):
     name = user_data['name']

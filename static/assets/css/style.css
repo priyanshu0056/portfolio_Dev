@@ -890,7 +890,7 @@ section.skills .section-heading{
     position: absolute;
     right: -25%;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateX(140%);
     width: 20px;
     height: 20px;
     border: 5px solid #191919;
@@ -900,7 +900,7 @@ section.skills .section-heading{
 .card_1:nth-child(odd):after{
     content: '';
     position: absolute;
-    right: -18%;
+    right: -25%;
     top: 50%;
     transform: translateY(-50%);
     width: 70%;
@@ -922,7 +922,7 @@ section.skills .section-heading{
 .card_1:nth-child(even) .card-body_1:before{
     content: '';
     position: absolute;
-    left: -22%;
+    left: -23%;
     top: 0px;
     transform: translateY(-5%);
     width: 0px;
@@ -971,6 +971,17 @@ section.skills .section-heading{
         border: 1px dashed #fff;
         z-index: -1;
     }
+    .card_1:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    right: -25%;
+    top: 50%;
+    transform: translateY(-50%) translateX(15%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid #191919;
+    border-radius: 50%;
+}
     
 }
 
